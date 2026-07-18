@@ -24,7 +24,7 @@ export class ErrorBoundary extends Component<Props, State> {
   componentDidCatch(error: Error, info: ErrorInfo): void {
     this.setState({ error, info });
     // eslint-disable-next-line no-console
-    console.error('[Chord Lab] Unexpected error:', error, info);
+    console.error('[Fretwise] Unexpected error:', error, info);
   }
 
   private reset = (): void => {

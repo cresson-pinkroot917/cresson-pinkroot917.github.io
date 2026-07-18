@@ -1,5 +1,5 @@
 /**
- * Core types for the Chord Lab engine.
+ * Core types for the Fretwise engine.
  *
  * PitchClass: integer 0..11 representing one of 12 chroma (C=0, C#=1, ..., B=11).
  * MidiNote: standard MIDI note number (e.g. A4 = 69).

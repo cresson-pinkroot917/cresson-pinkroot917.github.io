@@ -1,5 +1,5 @@
 /* ==============================================
-   Chord Lab — global styles
+   Fretwise — global styles
    Organized by concern: tokens, reset, layout, controls, fretboard, results.
    Uses CSS custom properties so theme changes cascade without JS repaint.
    Stays minimal (no framework). Tailwind or vanilla-extract could slot in later.

@@ -1,6 +1,6 @@
 name: Deploy to GitHub Pages
 
-# Builds Chord Lab and publishes dist/ to GitHub Pages on every push to main.
+# Builds Fretwise and publishes dist/ to GitHub Pages on every push to main.
 # Fully automated: no manual steps after the repo has Pages enabled.
 
 on:

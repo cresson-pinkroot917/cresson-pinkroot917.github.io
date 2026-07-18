@@ -1,4 +1,4 @@
-# Chord Lab — Sistema de marca
+# Fretwise — Sistema de marca
 
 > **Versión 1.0** · Último update: 2026-04-18
 > Fuente de verdad para identidad visual, voz, copy y aplicación UI.
@@ -8,17 +8,17 @@
 ## 1. Esencia
 
 ### 1.1 Qué es
-Chord Lab es un **identificador y laboratorio de acordes para guitarra**. Armás una posición en el diapasón y devuelve nombre, inversiones drop-2, escalas compatibles y audio — en tiempo real, en el navegador, sin registro.
+Fretwise es un **identificador y laboratorio de acordes para guitarra**. Armás una posición en el diapasón y devuelve nombre, inversiones drop-2, escalas compatibles y audio — en tiempo real, en el navegador, sin registro.
 
 ### 1.2 Para quién
 Guitarristas intermedios y avanzados · productores musicales · docentes de armonía · estudiantes de teoría · songwriters que arreglan en el instrumento.
 
-**No** es para el guitarrista absoluto principiante que recién aprende la digitación de un Do mayor. Chord Lab asume que ya sabés pisar; te da el porqué.
+**No** es para el guitarrista absoluto principiante que recién aprende la digitación de un Do mayor. Fretwise asume que ya sabés pisar; te da el porqué.
 
 ### 1.3 Posicionamiento
-> Lo que un diccionario de acordes hace en papel, Chord Lab lo hace en **milisegundos**, con teoría correcta, y sin mandar una sola request a un servidor.
+> Lo que un diccionario de acordes hace en papel, Fretwise lo hace en **milisegundos**, con teoría correcta, y sin mandar una sola request a un servidor.
 
-Frente a competidores (Chordify, Oolimo, ChordFinder), Chord Lab compite por **precisión teórica** (inversiones nombradas correctamente, no "acorde con bajo raro"), **privacidad** (client-side puro), y **velocidad** (single-file HTML, 65 KB gzipped).
+Frente a competidores (Chordify, Oolimo, ChordFinder), Fretwise compite por **precisión teórica** (inversiones nombradas correctamente, no "acorde con bajo raro"), **privacidad** (client-side puro), y **velocidad** (single-file HTML, 65 KB gzipped).
 
 ### 1.4 Valores
 1. **Precisión sobre aproximación.** Si un voicing es `C/E`, decimos `C/E`, no "Do con otra nota en el bajo".
@@ -31,8 +31,8 @@ Frente a competidores (Chordify, Oolimo, ChordFinder), Chord Lab compite por **p
 ## 2. Nombre y tagline
 
 ### 2.1 Nombre
-**Chord Lab** (dos palabras, mayúsculas iniciales en prosa, VERSALES en logo).
-Nunca: *Chordlab*, *ChordLab*, *chord-lab* (excepto en código/URLs), *Chord-Lab*.
+**Fretwise** (una palabra, mayúscula inicial en prosa, VERSALES en logo: FRETWISE).
+Nunca: *Fret Wise*, *FretWise*, *fret-wise*, *Fretwize*. En código/URLs/slug: `fretwise`.
 
 ### 2.2 Tagline principal
 > **El laboratorio de acordes.**
@@ -111,10 +111,10 @@ Hablamos en español rioplatense cuando el contexto es informal (ej. UI conversa
 
 ### 4.1 Anatomía
 
-El logo de Chord Lab está compuesto por:
+El logo de Fretwise está compuesto por:
 
 1. **El símbolo (mark)** — un cuadrado redondeado que representa un fragmento de diapasón con 3 puntos de colores: rojo (fundamental), azul (3ra) y ámbar (5ta). Los 3 colores son **sagrados**: son los mismos que usa la app para identificar grados.
-2. **El wordmark** — "CHORD LAB" en caja alta, tracking ancho (+0.08em), peso 700.
+2. **El wordmark** — "FRETWISE" en caja alta, tracking ancho (+0.08em), peso 700.
 
 ### 4.2 Variantes
 
@@ -198,7 +198,7 @@ Los colores viven como **tokens semánticos**, no como valores crudos. Esto deja
 
 ### 6.1 Familia
 
-**Una sola familia**: el system stack nativo del dispositivo. Es veloz, se siente nativo, no requiere fetches externos, y es parte del credo *single-file* de Chord Lab.
+**Una sola familia**: el system stack nativo del dispositivo. Es veloz, se siente nativo, no requiere fetches externos, y es parte del credo *single-file* de Fretwise.
 
 ```css
 font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter',
@@ -252,7 +252,7 @@ Prohibidos: caritas, manos, objetos realistas.
 
 ## 8. Fotografía e imaginería
 
-Chord Lab **no usa fotografía de stock**. Jamás.
+Fretwise **no usa fotografía de stock**. Jamás.
 
 Nuestra imaginería es:
 1. **Capturas reales del producto** (la app funcionando).
@@ -265,7 +265,7 @@ Si hace falta "humanizar", mostramos el producto en uso (fragmento de código, h
 
 ## 9. Principios de UI
 
-Estos principios son **invariantes** de cualquier superficie de Chord Lab:
+Estos principios son **invariantes** de cualquier superficie de Fretwise:
 
 1. **Un solo color por pitch class.** C es siempre rojo. Nunca cambia entre vistas. La memoria muscular visual es parte del producto.
 2. **Un solo color por grado.** 1 es siempre `--chord-red`. 3 es siempre `--chord-blue`. Independiente de la tonalidad.
@@ -289,11 +289,11 @@ Frases canónicas. Cambiarlas requiere aprobación (si sos el único dev, al men
 | Sin match | *Sin match.* |
 | Escalas compatibles | *Escalas compatibles — click para superponer.* |
 | Tooltip "Apilar" | *Cuando está activado, clickear voicings/inversiones los apila con colores distintos.* |
-| Footer | *Chord Lab · hecho en el navegador · sin servidores.* |
+| Footer | *Fretwise · hecho en el navegador · sin servidores.* |
 
 ---
 
-## 11. Checklist: ¿esto es Chord Lab?
+## 11. Checklist: ¿esto es Fretwise?
 
 Antes de publicar algo con la marca, pasá esta lista:
 
@@ -306,7 +306,7 @@ Antes de publicar algo con la marca, pasá esta lista:
 - [ ] ¿Hay al menos un detalle técnico concreto (cifras, términos correctos)?
 - [ ] ¿Se puede leer en dark mode sin romper contrastes?
 
-Si todas están tildadas, es Chord Lab.
+Si todas están tildadas, es Fretwise.
 
 ---
 

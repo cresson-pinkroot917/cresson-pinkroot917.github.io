@@ -3,7 +3,7 @@ import type { ReactNode } from 'react';
 /**
  * Brand header — the app's masthead.
  *
- * Renders the Chord Lab lockup (mark + wordmark) inline so it works in a
+ * Renders the Fretwise lockup (mark + wordmark) inline so it works in a
  * single-file build without a font file or external SVG. Mark geometry
  * mirrors `brand/logo-mark.svg`:
  *   - wood-dark square (1a1a1a) with rounded corners
@@ -23,7 +23,7 @@ interface BrandHeaderProps {
 export function BrandHeader({ children }: BrandHeaderProps) {
   return (
     <header className="brand-header" role="banner">
-      <a className="brand-lockup" href="#" aria-label="Chord Lab — inicio">
+      <a className="brand-lockup" href="#" aria-label="Fretwise — inicio">
         {/* Mark */}
         <svg
           className="brand-mark"
@@ -45,7 +45,7 @@ export function BrandHeader({ children }: BrandHeaderProps) {
 
         {/* Wordmark + tagline */}
         <div className="brand-text">
-          <div className="brand-wordmark">CHORD LAB</div>
+          <div className="brand-wordmark">FRETWISE</div>
           <div className="brand-tagline">El laboratorio de acordes</div>
         </div>
       </a>

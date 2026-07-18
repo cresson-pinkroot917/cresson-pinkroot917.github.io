@@ -101,7 +101,7 @@ export function useKeyboardShortcuts(deps: ShortcutDeps): void {
           e.preventDefault();
           // eslint-disable-next-line no-console
           console.info(
-            '[Chord Lab] Shortcuts:\n' +
+            '[Fretwise] Shortcuts:\n' +
               '  Space     Play\n' +
               '  A         Arpeggio\n' +
               '  C / Del   Clear\n' +

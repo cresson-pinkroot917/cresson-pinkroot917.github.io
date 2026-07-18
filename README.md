@@ -1,4 +1,4 @@
-# Chord Lab
+# Fretwise
 
 Guitar chord identifier with real-time fretboard visualization, drop-2 inversions across the neck, scale overlays, and Karplus-Strong plucked-string audio synthesis.
 

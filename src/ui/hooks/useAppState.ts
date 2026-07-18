@@ -9,7 +9,7 @@ const EMPTY_STRINGS: Strings = ['muted', 'muted', 'muted', 'muted', 'muted', 'mu
 
 /* ---------- Persisted preferences ---------- */
 
-const PREFS_KEY = 'chord-lab:prefs';
+const PREFS_KEY = 'fretwise:prefs';
 
 interface PersistedPrefs {
   tuning: TuningName;

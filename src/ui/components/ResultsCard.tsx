@@ -50,7 +50,7 @@ export function ResultsCard(props: ResultsCardProps) {
             </svg>
             <h3>Todavía no hay acorde</h3>
             <p className="empty-lede">
-              Armá una posición en el diapasón y Chord Lab te devuelve el nombre, las inversiones
+              Armá una posición en el diapasón y Fretwise te devuelve el nombre, las inversiones
               y las escalas compatibles — al instante.
             </p>
             <div className="empty-hints" aria-label="Maneras de empezar">
@@ -378,7 +378,7 @@ function ShareButton({ strings, tuning_, view }: ShareButtonProps) {
     try {
       // Web Share API first (native share sheet on mobile); fall back to clipboard.
       if (typeof navigator !== 'undefined' && 'share' in navigator && /Mobi|Android/i.test(navigator.userAgent)) {
-        await navigator.share({ title: 'Chord Lab', url });
+        await navigator.share({ title: 'Fretwise', url });
         return;
       }
       if (typeof navigator !== 'undefined' && navigator.clipboard) {

@@ -3,7 +3,7 @@ import { useLocalStorage } from './useLocalStorage';
 
 export type Theme = 'light' | 'dark' | 'auto';
 
-const STORAGE_KEY = 'chord-lab:theme';
+const STORAGE_KEY = 'fretwise:theme';
 
 function systemPrefersDark(): boolean {
   if (typeof window === 'undefined') return false;
